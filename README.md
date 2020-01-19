@@ -103,10 +103,15 @@ let popsicle = function(userOptions) {     //sets up the function popsicle
 # How to Call popsicle Example
 `
 popsicle({                // calls popsicle with object with the options you have 
+
 	message: 'Hello World',  // sets the message to "Hello World"
+
 	autoDismiss: 10000,      // sets the autoDismiss to 10 seconds
+	
 	type: 'All good',        // sets the type to "All good" so a green right border is displayed
+	
 	progressBar:true,        // set it so that there is a progress bar
+	
 	closeButton: false,      // sets it so that there isnt a close button
 })
 `

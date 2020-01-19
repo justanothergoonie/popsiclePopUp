@@ -119,7 +119,7 @@ let popsicle = function(userOptions) {     //sets up the function popsicle
    
 			progressBar.style.backgroundColor = '#ccc'         // makes the bar gray, set to your preferred color
    
-			progressBar.style.transition = (options.autoDismiss)/1000 + 's'   // makes it so the progress bar reads how many            milliseconds you have chosen under auto dismiss, divides it by 1000 and adds 's'to the end so CSS can read it as seconds,so (3000)/1000 + 's'=3s transtion, dont mess with this
+			progressBar.style.transition = (options.autoDismiss)/1000 + 's'   // makes it so the progress bar 												reads how many milliseconds you have chosen under auto dismiss, divides it by 1000 and adds 's'to the end so CSS can read it as seconds,so (3000)/1000 + 's'=3s transtion, dont mess with this
    
 			progressBar.style.width = '100%'                   // makes it so the bar is the width of the popsicle
    
